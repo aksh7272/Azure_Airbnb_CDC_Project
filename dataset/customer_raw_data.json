@@ -22,7 +22,7 @@
 		"schema": [
 			{
 				"name": "customer_id",
-				"type": "String"
+				"type": "INT"
 			},
 			{
 				"name": "first_name",
@@ -62,19 +62,19 @@
 			},
 			{
 				"name": "signup_date",
-				"type": "String"
+				"type": "DATE"
 			},
 			{
 				"name": "last_login",
-				"type": "String"
+				"type": "DATETIME"
 			},
 			{
 				"name": "total_bookings",
-				"type": "String"
+				"type": "INT"
 			},
 			{
 				"name": "total_spent",
-				"type": "String"
+				"type": "DECIMAL(10,2)"
 			},
 			{
 				"name": "preferred_language",

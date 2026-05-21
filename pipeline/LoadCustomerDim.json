@@ -72,10 +72,6 @@
 									"type": "DelimitedTextSource",
 									"additionalColumns": [
 										{
-											"name": "signup_date",
-											"value": "$$FILEPATH"
-										},
-										{
 											"value": "$$FILEPATH"
 										}
 									],
@@ -109,8 +105,9 @@
 									"type": "TabularTranslator",
 									"typeConversion": true,
 									"typeConversionSettings": {
-										"allowDataTruncation": true,
-										"treatBooleanAsNumber": false
+										"allowDataTruncation": false,
+										"treatBooleanAsNumber": false,
+										"dateFormat": "toTimestamp(signup_date,'dd-MM-yyyy')"
 									}
 								}
 							},

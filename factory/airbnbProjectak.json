@@ -1,0 +1,15 @@
+{
+	"name": "airbnbProjectak",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5f17fe31-7f99-4a62-a708-91ec7554c0fc",
+		"tenantId": "fb8d0ccb-ee24-4a21-94c2-1db525d63335"
+	}
+}

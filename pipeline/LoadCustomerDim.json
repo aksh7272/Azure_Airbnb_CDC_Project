@@ -139,7 +139,7 @@
 									"storeSettings": {
 										"type": "AzureBlobFSReadSettings",
 										"recursive": true,
-										"wildcardFolderPath": "customer_raw_data",
+										"wildcardFolderPath": "customer_raw-data",
 										"wildcardFileName": {
 											"value": "@item().name",
 											"type": "Expression"

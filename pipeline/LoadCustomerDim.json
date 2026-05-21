@@ -106,8 +106,7 @@
 									"typeConversion": true,
 									"typeConversionSettings": {
 										"allowDataTruncation": false,
-										"treatBooleanAsNumber": false,
-										"dateFormat": "toTimestamp(signup_date,'dd-MM-yyyy')"
+										"treatBooleanAsNumber": false
 									}
 								}
 							},
